@@ -22,9 +22,9 @@ async function updatePosts() {
     postElements += postElement;
   });
 
-  const wall = document.querySelector('.wall');
+  const board = document.querySelector('.board');
 
-  wall.innerHTML = postElements;
+  board.innerHTML = postElements;
 }
 
 
