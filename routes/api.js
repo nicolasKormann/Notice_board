@@ -4,11 +4,11 @@ import cors from 'cors';
 
 export const router = express.Router();
 
-const options = {
+/* const options = {
   origin: "http://localhost:3005"
 }
 router.use(cors(options));
-
+ */
 router.get("/all", (req, res) => {
   res.json(posts.getAll());
 
