@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function updatePosts() {
 
-  const URL = 'http://10.0.0.198:3005/api/all'
+  const URL = '/api/all'
 
   const promise = await fetch(URL);
 
@@ -34,7 +34,7 @@ async function newPost() {
 
   const post = { title, description };
 
-  const URL = `http://10.0.0.198:3005/api/new`;
+  const URL = '/api/new';
 
   const options = {
     method: 'POST',
