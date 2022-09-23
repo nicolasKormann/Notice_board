@@ -4,7 +4,7 @@ import { router } from "./routes/api.js"
 
 
 const app = express();
-const PORT = process.env.API_URL || 3005;
+const PORT = process.env.PORT || 3005;
 
 
 app.use('/api', router);
